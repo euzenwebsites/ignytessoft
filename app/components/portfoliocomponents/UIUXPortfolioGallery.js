@@ -9,9 +9,9 @@ const UIUXPortfolioGallery = () => {
     <RevealWrapper interval={60} delay={400} origin='right'  duration={1500}>
     <div >
             <div className='relative pl-10'>
-                <div className='absolute z-20 top-0 left-0 max-sm:static max-sm:mt-8'> <Image src={WebDesPort1} width={300} /></div>
-                <div className='absolute z-30 top-32 left-56 max-sm:static max-sm:mt-8'><Image src={WebDesPort2} width={300}/></div>
-                <div className='absolute z-10 top-64 left-0 max-sm:static max-sm:mt-8'><Image src={WebDesPort3} width={300}/></div>
+                <div className='absolute z-20 top-0 left-0 max-sm:static max-sm:mt-8'> <Image src={WebDesPort1} width={300} alt='UI/UX portfolio Image 1'/></div>
+                <div className='absolute z-30 top-32 left-56 max-sm:static max-sm:mt-8'><Image src={WebDesPort2} width={300} alt='UI/UX portfolio Image 2'/></div>
+                <div className='absolute z-10 top-64 left-0 max-sm:static max-sm:mt-8'><Image src={WebDesPort3} width={300} alt='UI/UX portfolio Image 3'/></div>
             </div>
             
         </div>

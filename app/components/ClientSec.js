@@ -28,10 +28,10 @@ const ClientSec = () => {
     <div>
     <RevealWrapper interval={60} delay={500}  duration={1500}>
         <div className='grid grid-cols-2 gap-2'>
-            <div><Image src={Client01} width={400} /></div>
-            <div><Image src={Client02} width={400}/></div>
-            <div><Image src={Client03} width={400}/></div>
-            <div><Image src={Client04} width={400}/></div>
+            <div><Image src={Client01} width={400} alt='client 01' /></div>
+            <div><Image src={Client02} width={400} alt='client 02'/></div>
+            <div><Image src={Client03} width={400} alt='client 03'/></div>
+            <div><Image src={Client04} width={400} alt='client 04'/></div>
         </div>
     </RevealWrapper>
     </div>
