@@ -1,7 +1,7 @@
 "use client"
 import { useForm } from "react-hook-form";
 
-export default function(){
+const Form = () => {
   const {
     register,
     handleSubmit,
@@ -97,5 +97,6 @@ export default function(){
     </form>
   );
 };
+export default Form
 
 

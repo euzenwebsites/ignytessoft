@@ -31,8 +31,8 @@ const Contactform = () => {
         // >Volutpat odio facilisis mauris sit amet massa vitae.</p> */}
     </div>
     <div className="text-[#DEE1E6] text-sm">
-        <Link href="/"><p><span className="inline-flex pr-2"><Image src={mapIcon}/></span>18601 FM 1431 Ste 104 #2053 Jonestown, TX 78645</p></Link>
-        <Link href="mailto:contact@ignytestech.com"> <p><span className="inline-flex pr-2"><Image src={mailIcon}/></span>contact@ignytestech.com</p></Link>
+        <Link href="/"><p><span className="inline-flex pr-2"><Image src={mapIcon} alt="map icon"/></span>18601 FM 1431 Ste 104 #2053 Jonestown, TX 78645</p></Link>
+        <Link href="mailto:contact@ignytestech.com"> <p><span className="inline-flex pr-2"><Image src={mailIcon} alt="email icon"/></span>contact@ignytestech.com</p></Link>
 
         
         

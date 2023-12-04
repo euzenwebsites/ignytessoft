@@ -38,13 +38,13 @@ export const HomeHero = () => {
     <section id="mySection" className={`hero-slider${active + 1}`}  style={{zIndex:"200"}}>
         <div className='social-media-box'>
           <div className='social-icon'><Link href="https://www.facebook.com/profile.php?id=61551726248998" target="_blank">
-            <Image src={facebookIcon} height={20}/></Link></div>
+            <Image src={facebookIcon} height={20} alt='facebook icon'/></Link></div>
 
           <div className='social-icon'><Link href="https://www.linkedin.com/company/ignytes-soft" target="_blank">
-            <Image src={linkedinIcon} height={20}/></Link></div>
+            <Image src={linkedinIcon} height={20} alt='linkedin icon'/></Link></div>
 
           <div className='social-icon'><Link href="https://twitter.com/Ignytessoft1" target="_blank">
-            <Image src={twitterxIcon} height={20}/></Link></div>
+            <Image src={twitterxIcon} height={20} alt='twitter icon'/></Link></div>
 
         </div>
 
@@ -97,7 +97,7 @@ export const HomeHero = () => {
   </swiper-container>
 
   <div className='play-btn'> 
-  <Image height={60} src={playBtn}/>
+  <Image height={60} src={playBtn} alt='play button'/>
   </div>
 
  <div>

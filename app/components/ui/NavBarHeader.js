@@ -1,10 +1,9 @@
-"use client"
-import './module.css'
-import Logo from "../../../public/logo.svg"
+"use client";
+import './module.css';
+import Logo from "../../../public/logo.svg";
 import Image from 'next/image';
 import Navbar from './Navbar';
 import { useState } from 'react';
-
 import Link from 'next/link';
 
 const NavBarHeader = () => {
@@ -15,11 +14,11 @@ const NavBarHeader = () => {
   };
 
   return (
-    <nav className="navbar " style={{zIndex:"500"}}>
+    <nav className="navbar" style={{ zIndex: "500" }}>
       <div className="container">
         <div className="logo-container">
           <Link href="/">
-            <Image src={Logo}/>
+            <Image src={Logo} alt='Ignytes Soft Logo'/>
           </Link>
         </div>
         <div className={`menu-container ${menuOpen ? 'open' : ''}`}>
@@ -41,9 +40,9 @@ const NavBarHeader = () => {
             </li>
           </ul>
         </div>
-        <div className="" >
-        {/* onClick={toggleMenu} */}
-          <Navbar/>
+        <div>
+          {/* onClick={toggleMenu} */}
+          <Navbar />
           {/* {menuOpen ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -76,13 +75,11 @@ const NavBarHeader = () => {
             </svg>
           )} */}
         </div>
-       
       </div>
     </nav>
   );
 };
-NavBarHeader.displayName = 'NavBarHeader'
+
+NavBarHeader.displayName = 'NavBarHeader';
+
 export default NavBarHeader;
-
-
-
