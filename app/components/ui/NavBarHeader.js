@@ -81,7 +81,7 @@ const NavBarHeader = () => {
     </nav>
   );
 };
-
+NavBarHeader.displayName = 'NavBarHeader'
 export default NavBarHeader;
 
 
