@@ -1,5 +1,5 @@
 import React from 'react';
-import Team from "../../public/team02.png";
+import Team from '../../public/team02.png';
 import Link from 'next/link';
 import Form from '../components/ui/Form';
 import Image from 'next/image';
@@ -18,7 +18,7 @@ const ContactSec = () => {
           <div>
             <Form />
             <p className='text-[#2D2D2D] font-normal text-lg pt-12'>
-              Contact us, and let's start a conversation. We'd love to hear from you if you have any questions,
+            Contact us, and let&apos;s start a conversation. We&apos;d love to hear from you if you have any questions,
               ideas, or suggestions for collaboration. Contact us today!
             </p>
             <div className='text-[#000] mt-10 mb-10 text-right'>________________________</div>
