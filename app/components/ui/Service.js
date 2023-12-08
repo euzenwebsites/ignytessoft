@@ -11,7 +11,6 @@ const Service = (props) => {
       <p className={`text-[#D1D1DB] font-normal text-lg pb-4  text-${props.align} max-sm:text-left`}>
         {props.description}</p>
         </div>
-        {/* style={{display:"flex",flexDirection:"column", alignItems:props.direction}} */}
     </div>
     // 
     // 

@@ -8,7 +8,7 @@ import mobileIcon from "../../public/mobileapp.svg"
 import serviceIcon4 from "../../public/_1 (4).svg"
 import serviceIcon5 from "../../public/_1.svg"
 import serviceIcon6 from "../../public/Isolation_Mode.svg"
-
+import Image from 'next/image'
 
 import { RevealWrapper } from 'next-reveal';
 
@@ -37,12 +37,20 @@ const ServicesSec = () => {
 {/* --------------------second conatiner---------- */}
 <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-12'>
       
-        <RevealWrapper interval={60} delay={400}  duration={1500} >
-        <Service 
+  <RevealWrapper interval={60} delay={400}  duration={1500} >
+    <div className={`w-[100%] flex flex-col  items-end max-sm:items-start`}>
+        <div className={`w-[50%] max-sm:w-[100%]  flex flex-col items-end   max-sm:items-start`} >
+          <Image src={serviceIcon1} width={30} className='pb-4' alt="ui/ux image"/>
+          <h3 className={`text-[#fff] text-xl font-semibold uppercase pb-4  text-right max-sm:text-left`}>UI/UX DESIGN</h3>
+         <p className={`text-[#D1D1DB] font-normal text-lg pb-4  text-right max-sm:text-left`}>
+         Our UI/UX expertise connects users with amazing journeys through seamless functionality.</p>
+    </div>
+    </div>
+        {/* <Service 
         direction= 'end' 
         heading="UI/UX DESIGN" align="right" icon={serviceIcon1}
-        description="Our UI/UX expertise connects users with amazing journeys through seamless functionality."/>
-        </RevealWrapper>
+        description="Our UI/UX expertise connects users with amazing journeys through seamless functionality."/> */}
+  </RevealWrapper>
      
         <RevealWrapper interval={60} delay={400}  duration={1500}>
         <Service direction='start' heading="WEB DESIGN & DEVELOPEMENT" align="left" icon={webIcon}
