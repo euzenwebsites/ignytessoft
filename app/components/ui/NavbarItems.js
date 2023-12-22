@@ -5,7 +5,7 @@ import Link from "next/link";
 const NavbarItems = ({ isToggled }) => {
   const Navitems = [
     { name: "Home", path: "/" },
-    { name: "Services", path: "#services" },
+    { name: "Services", path: "#service" },
     { name: "Portfolio", path: "#portfolio" },
     { name: "Pricing", path: "#prices" },
     { name: "Contact Us", path: "#contact" },

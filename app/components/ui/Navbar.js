@@ -67,7 +67,7 @@ const Navbar = () => {
             animate={isToggled ? "visible" : "hidden"}
             // exit="hidden"
             variants={navContainer}
-          >
+          >  
             <NavbarItems isToggled={isToggled} />
           </motion.div>
         )}
