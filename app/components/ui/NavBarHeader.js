@@ -27,16 +27,16 @@ const NavBarHeader = () => {
               <Link href="/">Home</Link>
             </li>
             <li className='hover:border-b-yellow-500'>
-              <Link href="/components#service" >Services</Link>
+              <Link href="ignytessoft.com#service" >Services</Link>
             </li>
             <li>
-              <Link href="/components#portfolio">Portfolio</Link>
+              <Link href="ignytessoft.com#portfolio">Portfolio</Link>
             </li>
             <li>
-              <Link href="/components#pricing">Pricing</Link>
+              <Link href="ignytessoft.com#pricing">Pricing</Link>
             </li>
             <li>   
-              <Link href="/components#contact">Contact</Link>
+              <Link href="ignytessoft.com#contact">Contact</Link>
             </li>
           </ul>
         </div>
