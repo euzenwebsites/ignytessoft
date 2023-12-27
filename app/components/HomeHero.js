@@ -35,7 +35,7 @@ export const HomeHero = () => {
      
 
   return (
-    <section id="mySection" className={`hero-slider${active + 1}`}  style={{zIndex:"200"}}>
+    <section id="mySection" className={`hero-slider${active + 1}`}  style={{zIndex:"200"}}> 
         <div className='social-media-box'>
           <div className='social-icon'><Link href="https://www.facebook.com/profile.php?id=61551726248998" target="_blank">
             <Image src={facebookIcon} height={20} alt='facebook icon'/></Link></div>
@@ -100,9 +100,11 @@ export const HomeHero = () => {
   <Image height={60} src={playBtn} alt='play button'/>
   </div>
 
- <div>
+ <div className='line '>
+  <div className='line-box'>
   <div className='pagination-line'></div>
   <div className='pagination-dot'></div>
+  </div>
 </div>
  
     </section>

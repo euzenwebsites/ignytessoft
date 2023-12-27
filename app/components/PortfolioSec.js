@@ -47,8 +47,8 @@ return (
           ))}</ul>
           
         </div>
-                <div className='w-[1px] h-[200px] bg-[#000] ml-16'></div>
-                <button className="ml-16">VIEW PORTFOLIO</button>
+                {/* <div className='w-[1px] h-[200px] bg-[#000] ml-16'></div>
+                <button className="ml-16">VIEW PORTFOLIO</button> */}
         </div>
 
                  {/* gallery container */}

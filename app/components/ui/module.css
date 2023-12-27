@@ -49,11 +49,11 @@ li {
 
 a {
   text-decoration: none;
-  color: #6A6A6A;
-font-size: 18px;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+  color: #272727;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 .mobile-menu-toggle {
@@ -64,7 +64,7 @@ line-height: normal;
 @media screen and (max-width: 768px) {
   .menu-container {
     display: none;
-    flex-direction: column;
+    flex-direction: column; 
     background-color: #333;
     z-index: 200;
     position: absolute;
@@ -82,6 +82,8 @@ line-height: normal;
 
   .mobile-menu-toggle {
     display: flex;
+    justify-content: center;
+    align-items: center;
     
     
   }
@@ -113,18 +115,18 @@ line-height: normal;
   width: 100%;
   height: 30%;
   position: absolute;
-
   top: 70px;
   right: 0;
   z-index: 200;
   margin: none;
   border-radius: 16px;
-  background-color: #272727;
+
   
 } 
 
 .navList {
-  padding: 50px 70px 200px 70px;
+  padding: 50px;
+  background-color: #272727;
 }
 
 .nav-item {
@@ -134,17 +136,8 @@ line-height: normal;
   color: white;
   cursor: pointer;
 } 
-
-
-
-/* .navbar-item-circle {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: linear-gradient(to right, #000428, #004e92);
+.navList .nav-item a{
+  color: #fff;
 }
 
-.navbar-item-rect {
-  width: 30px;
-  height: 30px;
-} */
+
